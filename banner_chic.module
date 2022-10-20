@@ -6,7 +6,16 @@
 function banner_chic_theme($existing, $type, $theme, $path) {
   return [
     'my_template' => [
-      'variables' => ['test_var' => NULL],
+      'variables' => [
+        'service1' => NULL,
+        'lien_service1' => NULL,
+        'service2' => NULL,
+        'lien_service2' => NULL,
+        'service3' => NULL,
+        'lien_service3' => NULL,
+        'service4' => NULL,
+        'lien_service4' => NULL,
+    ],
     ],
   ];
 }

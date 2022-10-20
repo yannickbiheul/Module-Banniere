@@ -1,0 +1,7 @@
+name: Banner Chic
+core_version_requirement: ^8 || ^9
+type: module
+package: Mes Modules
+description: Une bannière pour une page d'accueil
+dependencies:
+  - drupal:block

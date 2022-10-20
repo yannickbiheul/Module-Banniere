@@ -1,0 +1,56 @@
+{# La bannière prend toute la largeur #}
+<section class="">
+
+    {# Elle est diviséee en 2 parties #}
+    <div class="row banniere container-fluid d-flex justify-content-between align-items-center">
+
+        {# La première partie comprend le titre et une barre de recherche #}
+        <div class="col banniere1 d-flex flex-column justify-content-center align-items-center">
+            <h1>L'intranet du CHIC</h1>
+            <div class="recherche">
+                <input type="text">
+                <button class="btn btn-primary">Rechercher</button>
+            </div>
+        </div>
+
+        {# La deuxième partie comprend les accès rapides #}
+        <div class="col banniere2 d-flex justify-content-center">
+            <div class="acces-rapides">
+                <h3>Accès Rapides</h3>
+                <ul>
+                    <li><a href="#">Gardes et astreintes</a></li>
+                    <li><a href="#">WebCad</a></li>
+                    <li><a href="#">Chronos</a></li>
+                    <li><a href="#">Autre appli</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+.banniere {
+    background-color: #2980b9;
+    color: #fff;
+    height: 400px;
+    width: 100vw;
+}
+
+.acces-rapides {
+    background-color: #fff;
+    color: #000;
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px;
+}
+
+.acces-rapides a {
+    text-decoration: none;
+    color: #000;
+}
+
+.acces-rapides ul li {
+    margin-bottom: 5px;
+}
+</style>
